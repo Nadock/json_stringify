@@ -1,0 +1,4 @@
+{
+	"name": "some interesting json",
+	"message": "{\n\t\t\"type\": \"fake message\",\n\t\t\"content\": \"JSON Stringify is pretty cool\"\n\t}"
+}
