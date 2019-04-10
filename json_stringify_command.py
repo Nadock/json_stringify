@@ -3,8 +3,11 @@ Implementation of json_stringify plugin for Sublime Text 3. It converts between 
 """
 import json
 
+# pylint: disable=import-error
+# These modules are provided by SublimeText, so they are not going to be installed wherever the linting runs
 import sublime
 import sublime_plugin
+# pylint: enable=import-error
 
 class JsonStringifyCommand(sublime_plugin.TextCommand): # pylint: disable=too-few-public-methods
 	"""
