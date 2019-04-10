@@ -1,7 +1,7 @@
 # JSON Stringify
 A SublimeText 3 plugin to encode and decode JSON strings.
 
-![JSON Stringify in action](https://gfycat.com/gracefulmintyhoiho.gif)
+![JSON Stringify in action](https://thumbs.gfycat.com/GracefulMintyHoiho-size_restricted.gif)
 
 ## Installation
 This plugin can be installed with [PackageControl](https://packagecontrol.io/packages/JSON%20Stringify).
