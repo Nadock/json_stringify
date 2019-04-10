@@ -1,0 +1,6 @@
+[
+	{
+		"caption": "JSON Stringify: Invert Selection",
+		"command": "json_stringify"
+	}
+]
