@@ -1,0 +1,37 @@
+# Build config for CircleCI
+
+version: 2.1
+
+executors:
+  deployment_executor:
+    docker:
+      - image: python:3
+
+jobs:
+  lint:
+    executor: deployment_executor
+    steps:
+      - setup_remote_docker:
+          docker_layer_caching: true
+      - checkout
+      - run:
+          name: Running pylint
+          command: |
+            python3 -m pip install pylint
+            make lint
+  test:
+    executor: deployment_executor
+    steps:
+      - setup_remote_docker:
+          docker_layer_caching: true
+      - checkout
+      - run:
+          name: Running unit tests
+          command: make test
+
+workflows:
+  version: 2.1
+  test_deploy:
+    jobs:
+      - lint
+      - test
