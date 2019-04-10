@@ -1,0 +1,10 @@
+Thanks for installing JSON Stringify!
+
+To try it out just search for "JSON Stringify" in the command palette.
+
+----------------------------------------------------------------------
+
+This plugin in FOSS software, you can view the source code at any time here:
+https://github.com/Nadock/json_stringify
+
+If you find any issues with the plugin, please open an issue in the GitHub repo at the above link.
