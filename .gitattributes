@@ -2,8 +2,9 @@
 # archive files. See http://git-scm.com/docs/gitattributes for details.
 #
 # This prevents them from being included in distributed versions of the package.
-/test_data/	export-ignore
-/.pylintrc	export-ignore
-/.circleci/	export-ignore
-/.gitignore	export-ignore
-/Makefile	export-ignore
+/test_data/		export-ignore
+/.pylintrc		export-ignore
+/.circleci/		export-ignore
+/.gitignore		export-ignore
+/Makefile		export-ignore
+/.gitattributes	export-ignore
