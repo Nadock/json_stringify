@@ -1,13 +1,17 @@
 default: all
 
 .PHONY: all
-all: lint test
+all: lint test mypy
 
 .PHONY: lint
 lint:
 	python3 -m pylint ./*.py
+	python3 -m pylint ./tests/*.py
 
 .PHONY: test
 test:
-	python3 ./json_stringify_command_test.py
-	python3 -m mypy ./json_stringify_command.py
+	./bin/run_tests.sh
+
+.PHONY: mypy
+mypy:
+	./bin/run_mypy.sh
