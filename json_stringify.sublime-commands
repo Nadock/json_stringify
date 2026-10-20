@@ -2,5 +2,13 @@
 	{
 		"caption": "JSON Stringify: Invert Selection",
 		"command": "json_stringify"
+	},
+	{
+		"caption": "JSON Stringify: Encode Selection",
+		"command": "json_stringify_encode"
+	},
+	{
+		"caption": "JSON Stringify: Decode Selection",
+		"command": "json_stringify_decode"
 	}
 ]
